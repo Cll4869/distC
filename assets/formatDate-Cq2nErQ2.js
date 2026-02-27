@@ -1,1 +1,0 @@
-function c(e,o=!1){const t=new Date(+e),a=(t.getMonth()+1).toString().padStart(2,"0"),r=(t.getDate()+1).toString().padStart(2,"0");let n=`${t.getFullYear()}-${a}-${r}`;if(o){const s=t.getHours().toString().padStart(2,"0"),g=t.getMinutes().toString().padStart(2,"0"),S=t.getSeconds().toString().padStart(2,"0");n+=` ${s}:${g}:${S}`}return n}export{c as f};
